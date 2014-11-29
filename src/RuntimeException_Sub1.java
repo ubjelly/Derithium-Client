@@ -9,7 +9,7 @@ final class RuntimeException_Sub1 extends RuntimeException {
    Throwable aThrowable2118;
    static jString[] aClass94Array2119 = null;
    static int anInt2120 = 0;
-   static String aString2121;
+   static String serverIp;
 
 	static final void setRenderPos(int var0, int var1, int var2, int var3, int var5) {
 		StringNode.renderY2 = var1;
@@ -45,7 +45,7 @@ final class RuntimeException_Sub1 extends RuntimeException {
          method2287(-64, (byte)-87);
       }
 
-      aString2121 = null;
+      serverIp = null;
    }
 
 }

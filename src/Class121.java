@@ -115,7 +115,7 @@ final class Class121 {
 					return 0;
 				}
 
-				Class3_Sub9.aClass64_2318 = Class38.gameSignlink.startConnection(RuntimeException_Sub1.aString2121, Class123.anInt1658);
+				Class3_Sub9.aClass64_2318 = Class38.gameSignlink.startConnection(RuntimeException_Sub1.serverIp, Class123.anInt1658);
 				jInterface.aLong261 = TimeUtil.currentTimeMillis();
 				Light.anInt692 = 1;
 			}

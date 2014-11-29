@@ -550,7 +550,8 @@ public final class client extends GameShell {
          //RuntimeException_Sub1.aString2121 = "192.99.11.218";
          //RuntimeException_Sub1.aString2121 = "84.32.73.102";
          //RuntimeException_Sub1.aString2121 = "50.187.195.215";
-         RuntimeException_Sub1.aString2121 = "127.0.0.1";
+//         RuntimeException_Sub1.serverIp = "127.0.0.1";
+         RuntimeException_Sub1.serverIp = "50.187.195.215";
          Class53.anInt867 = 43594;
          Class3_Sub28_Sub19.anInt3773 = 43594;
 
@@ -571,7 +572,7 @@ public final class client extends GameShell {
 
          Class26.anInt506 = Class53.anInt867;
          Class162.anInt2036 = Class3_Sub28_Sub19.anInt3773;
-         Class38_Sub1.aString2611 = RuntimeException_Sub1.aString2121;
+         Class38_Sub1.aString2611 = RuntimeException_Sub1.serverIp;
          Class123.anInt1658 = Class3_Sub28_Sub19.anInt3773;
          Class3_Sub13_Sub38.aShortArray3455 = Class3_Sub13_Sub9.aShortArray3110 = Class136.aShortArray1779 = Class3_Sub13_Sub38.aShortArray3453 = new short[256];
          Class140_Sub6.anInt2894 = Class123.anInt1658;
