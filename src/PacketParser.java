@@ -680,7 +680,7 @@ final class PacketParser {
                                                                         }
                                                                      }
 
-                                                                     Class3_Sub28_Sub19.anIntArray3780[ClientScript.method633(31, Class49.anInt815++)] = var21;
+                                                                    // Class3_Sub28_Sub19.anIntArray3780[ClientScript.method633(31, Class49.anInt815++)] = var21;
                                                                      jString.anInt2147 = -1;
                                                                      return true;
                                                                   } else if(jString.anInt2147 != 104 && 121 != jString.anInt2147 && -98 != ~jString.anInt2147 && ~jString.anInt2147 != -15 && ~jString.anInt2147 != -203 && ~jString.anInt2147 != -136 && jString.anInt2147 != 186 && jString.anInt2147 != 218 && jString.anInt2147 != 39 && jString.anInt2147 != 112 && -21 != ~jString.anInt2147 && 16 != jString.anInt2147 && 17 != jString.anInt2147) {

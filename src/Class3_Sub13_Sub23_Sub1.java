@@ -171,11 +171,13 @@ final class Class3_Sub13_Sub23_Sub1 extends Class3_Sub13_Sub23 {
 	   }
    	}
 
-   static final AbstractSprite[] method286(int var1, int var2, js5 var3) {
-	   if (!client.spriteExists(var3, var1, var2)) {
-		   System.out.println("Sprite {" + var1 + ", " + var2 + ", " + var3 + "} doesn't exist!");
+   //THIS IS WHERE SPRITES ARE LOADED - Stephen
+   static final AbstractSprite[] loadCachedSprites(int var1, int var2, js5 var3) {
+	   if (var2 >= 1001 && var2 <= 1006) {
+		   return null;
 	   }
-	   System.out.println("Loading Sprite {" + var1 + ", " + var2 + ", " + var3 + "}!");
+	   
+	   //System.out.println("Loading Sprite {" + var1 + ", " + var2 + ", " + var3 + "}!");
 	   return !client.spriteExists(var3, var1, var2) ? null : Class15.method891();
    }
 

@@ -217,9 +217,9 @@ class Class127 {
                }
 
                if(6 == Class3_Sub13_Sub25.loginStage) {
-                  //Class3_Sub13_Sub1.outputStream.pos = 0;
-                  //Class3_Sub13_Sub1.outputStream.putPacket(17);
-                  //Class3_Sub15.worldConnection.write(Class3_Sub13_Sub1.outputStream.buf, 0, Class3_Sub13_Sub1.outputStream.pos);
+                 // Class3_Sub13_Sub1.outputStream.pos = 0;
+                 // Class3_Sub13_Sub1.outputStream.putPacket(17);
+                 // Class3_Sub15.worldConnection.write(Class3_Sub13_Sub1.outputStream.buf, 0, Class3_Sub13_Sub1.outputStream.pos);
                   Class3_Sub13_Sub25.loginStage = 4;
                   return;
                }

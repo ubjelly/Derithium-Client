@@ -320,6 +320,7 @@ final class Class82 {
 							Class75_Sub3.new_hitmarkers[index].method643(-xIncrease + var2 + Class32.anInt590, var0 + ClickMaskNode.anInt2208 - yIncrease);
 							client.getSmallFont().method699(Class72.method1298(damage), -1 + Class32.anInt590 + var2, 3 + ClickMaskNode.anInt2208 + var0, 16777215, 0);
 						} else {
+							System.out.println("HITMARKER INDEX: " + index);
 							Class75_Sub3.old_hitmarkers[index].method643(-12 + var2 + Class32.anInt590, var0 + ClickMaskNode.anInt2208 - 12);
 							client.getSmallFont().method699(Class72.method1298(damage), -1 + Class32.anInt590 + var2, 3 + ClickMaskNode.anInt2208 + var0, 16777215, 0);
 						}

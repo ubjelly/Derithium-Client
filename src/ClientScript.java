@@ -3790,13 +3790,13 @@ label0:
 				ItemPile.intStack[intStackIndex++] = Class159.method2194() ? 1 : 0;
 				continue;*/
 			} else if (opcode < 6600) {
-				if (opcode == 6500) {
+				/*if (opcode == 6500) {
 					if (-11 != ~Class143.gameState || ~Class3_Sub13_Sub31.anInt3375 != -1 || 0 != Class3_Sub13_Sub25.loginStage || 0 != Canvas_Sub1.anInt23)
 						ItemPile.intStack[intStackIndex++] = 1;
 					else
 						ItemPile.intStack[intStackIndex++] = ~Class121.method1735() == 0 ? 0 : 1;
 					continue;
-				}
+				}*/
 				if (-6502 == ~opcode) {
 					Class44_Sub1 class44_sub1 = Class140_Sub2.method1953((byte) 124);
 					if (class44_sub1 == null) {

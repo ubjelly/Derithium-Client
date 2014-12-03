@@ -28,6 +28,7 @@ final class Class14 {
       try {
     	 client.infinitySymbol = client.method602(0, client.infinitySymbolId, var1);
          TextureLoader.aClass3_Sub28_Sub16_Sub2Array2140 = Class157.method2176(var1, 0, UnderlayType.anInt2104);
+         System.out.println("OLD HITMARKERS VAR1: " + var1);
          Class75_Sub3.old_hitmarkers = Class140_Sub6.method2027(0, Class3_Sub13_Sub23_Sub1.old_markers_id, var1);
          Class75_Sub3.new_hitmarkers = Class140_Sub6.method2027(0, Class3_Sub13_Sub23_Sub1.new_markers_id, var1);
          Js5CacheWorker.aClass3_Sub28_Sub16Array996 = Class140_Sub6.method2027(0, client.anInt2195, var1);
@@ -38,13 +39,13 @@ final class Class14 {
          Class45.aClass3_Sub28_Sub16_736 =  Class140_Sub6.method2027(0, Class3_Sub13_Sub4.anInt3061, var1);
          client.mapscenes = Class3_Sub13_Sub23_Sub1.method28622222(0, client.mapscenesId, var1);
          client.mapbackSprte = InterfaceChangeNode.a(client.mapbackId, var1, true);//Class3_Sub28_Sub11.method602(0, client.mapbackId, (byte)-18, var1);
-         client.set_464 = Class3_Sub13_Sub23_Sub1.method286(0, client.set_464_id, var1);
-         client.set_530 = Class3_Sub13_Sub23_Sub1.method286(0, client.set_530_id, var1);
-         client.set_562 = Class3_Sub13_Sub23_Sub1.method286(0, client.set_562_id, var1);
-         client.set_602 = Class3_Sub13_Sub23_Sub1.method286(0, client.set_602_id, var1);
-         client.revision_images = Class3_Sub13_Sub23_Sub1.method286(0, client.revision_images_id, var1);
-         Class139.aClass3_Sub28_Sub16Array1825 = Class3_Sub13_Sub23_Sub1.method286(0, Class75_Sub1.anInt2633, var1);
-         Class80.aClass3_Sub28_Sub16Array1136 = Class3_Sub13_Sub23_Sub1.method286(0, Class40.anInt678, var1);
+         client.set_464 = Class3_Sub13_Sub23_Sub1.loadCachedSprites(0, client.set_464_id, var1);
+         client.set_530 = Class3_Sub13_Sub23_Sub1.loadCachedSprites(0, client.set_530_id, var1);
+         client.set_562 = Class3_Sub13_Sub23_Sub1.loadCachedSprites(0, client.set_562_id, var1);
+         client.set_602 = Class3_Sub13_Sub23_Sub1.loadCachedSprites(0, client.set_602_id, var1);
+         client.revision_images = Class3_Sub13_Sub23_Sub1.loadCachedSprites(0, client.revision_images_id, var1);
+         Class139.aClass3_Sub28_Sub16Array1825 = Class3_Sub13_Sub23_Sub1.loadCachedSprites(0, Class75_Sub1.anInt2633, var1);
+         Class80.aClass3_Sub28_Sub16Array1136 = Class3_Sub13_Sub23_Sub1.loadCachedSprites(0, Class40.anInt678, var1);
          SceneGraphNode.aClass109Array1831 = Class85.method1424(var1, (byte)-12, 0, Class3_Sub15.anInt2436);
          Class3_Sub13_Sub22.aClass109Array3270 = Class85.method1424(var1, (byte)-12, 0, Class3_Sub28_Sub18.anInt3757);
          client.getSmallFont().method697(Class3_Sub13_Sub22.aClass109Array3270, (int[])null);
