@@ -1327,7 +1327,7 @@ label0:
 					continue;
 				}
 				if (opcode == 3103) {
-					Class3_Sub13_Sub19.method264();
+					Class3_Sub13_Sub19.closeInterface();
 					continue;
 				}
 				if (opcode == 3104) {
