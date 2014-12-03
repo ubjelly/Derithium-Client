@@ -84,7 +84,7 @@ final class Class163_Sub1_Sub1 extends Class163_Sub1 {
                }
 
                if(~Class3_Sub13_Sub31.anInt3375 == -2) {
-                  Class3_Sub9.aClass64_2318 = Class38.gameSignlink.startConnection(RuntimeException_Sub1.aString2121, Class123.anInt1658);
+                  Class3_Sub9.aClass64_2318 = Class38.gameSignlink.startConnection(RuntimeException_Sub1.serverIp, Class123.anInt1658);
                   Class3_Sub13_Sub31.anInt3375 = 2;
                }
 
